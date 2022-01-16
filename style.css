@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.watch-box {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 35px;
+    width: 300px;
+    height: 100px;
+    border-radius: 20%;
+    background-color: white;
+}
+
+.text {
+    color: black;
+    font-size: 23px;
+}
+
+.minute {
+    font-size: 48px;
+}
+
+.sec {
+    font-size: 42px;
+}
+
+.msec {
+    font-size: 28px;
+}
+
+.button-wrapper {
+    width: 300px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 60px;
+    height: 30px;
+    border-radius: 10%;
+}
+
+.btn:hover {
+    background-color: aqua;
+}
+
+.lap {
+    height: 250px;
+    overflow: auto;
+    margin-top: 35px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.lap::-webkit-scrollbar {
+    display: nones;
+}
+
+.lap_itme {
+    display: inline-block;
+    width: 250px;
+    padding: auto;
+    text-align: center;
+    border: 2px solid #444;
+    border-radius: 50px;
+}
+
+.number {
+    color: black;
+}
+
+.time_stamp {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.lap_clear_btn {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 50%;
+    width: 100px;
+    padding: 15px 0;
+    border-radius: 50px;
+}
+
+.hidden {
+    display: none;
+}
